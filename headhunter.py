@@ -59,4 +59,4 @@ amass_output_file = run_amass(domain, recon_folder)
 sublist3r_output_file = run_sublist3r(domain, recon_folder)
 assetfinder_ouput_file = run_assetfinder(domain, recon_folder)
 
-unify_domains(amass_output_file, sublist3r_output_file, assetfinder_ouput_file)
+unify_domains(amass_output_file, sublist3r_output_file, assetfinder_ouput_file, recon_folder)
